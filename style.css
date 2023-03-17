@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background: #565656;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 100%;
+}
+
+.header img {
+    width: 120px;
+    border-radius: 100%;
+    border: 5px dotted #fabf29;
+}
+
+.heading_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeee;
+    width: 100vw;
+    height: 40px;
+}
+
+.header .name_tag {
+    background: #fabf29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 50px;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: orange;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid whitesmoke;
+    box-shadow: 2px 2px 1.5px gray;
+    border-radius: 100%;
+    margin-top: -4px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background-color: #ffe6d5;
+    background-image: linear-gradient(62deg, #ffe6d5 0%, #fec41f 100%);
+
+
+}
+
+.sub-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #565656;
+    padding: 5px;
+}
+
+.section_container {
+    margin-top: 10px;
+    width: 50%;
+}
+
+.section_container .profile {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.section_container .profile i {
+    font-size: 30px;
+    background: #565656;
+    color: #fabf29;
+    border-radius: 100%;
+    padding: 10px;
+    outline: 3px dotted #fabf29;
+    margin-right: 15px;
+}
+
+.section_container2 {
+    margin-top: 10px;
+}
+
+.section_container2 .skills {
+    display: flex;
+    align-items: center;
+}
+
+.section_container2 .skills i {
+    font-size: 30px;
+    background: #565656;
+    color: #fabf29;
+    border-radius: 100%;
+    padding: 10px;
+    outline: 3px dotted #fabf29;
+    margin-right: 15px;
+}
+
+.section_container2 .sub-heading2 {
+    text-align: center;
+}
+
+.section_container3 {
+    margin-top: 10px;
+}
+
+.section_container3 .workExperience {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section_container3 .workExperience i {
+    font-size: 30px;
+    background: #565656;
+    color: #fabf29;
+    border-radius: 100%;
+    padding: 10px;
+    outline: 3px dotted #fabf29;
+    margin-right: 15px;
+}
+
+.section_container3 .workExperience-header {
+    display: flex;
+    align-items: center;
+}
+
+.section_container3 .workExperience-header span {
+    margin-left: 150px;
+}
+
+.section_container3_ul {
+    margin-left: 30px;
+}
+
+.sectiontag2 {
+    width: 50%;
+}
+
+.section2_container {
+    margin-bottom: 10px;
+}
+
+.sectiontag2_heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.sectiontag2 i {
+    font-size: 30px;
+    background: #565656;
+    color: #fabf29;
+    border-radius: 100%;
+    padding: 10px;
+    outline: 3px dotted #fabf29;
+    margin-right: 15px;
+}
+
+.sectiontag2 .workExperience-header {
+    display: flex;
+
+}
+
+.sectiontag2 .workExperience-header span {
+    margin-left: 15px;
+}
+
+.sectiontag2 ul {
+    margin-left: 30px;
+}
+
+.sectiontag2 .section2_container2 .education-header {
+    display: flex;
+}
+
+.sectiontag2 .section2_container2 .education-header span {
+    margin-left: 15px;
+}
+
+.sectiontag2_footer {
+    display: flex;
+    margin-top: 10px;
+}
+
+.sectiontag2_footer span {
+    margin-left: 15px;
+
+}
